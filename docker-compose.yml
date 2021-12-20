@@ -13,5 +13,5 @@ services:
         volumes:
             - ./Nginx/core:/etc/nginx/conf.d
             - ./Nginx/www:/var/www/
-            - ./Nginx/Logs:/var/log/nginx/
+
 
