@@ -28,7 +28,7 @@
 
 				const texture = new THREE.TextureLoader().load( '/textures/crate.gif' );
 
-				const geometry = new THREE.BoxGeometry( 300, 300, 300 );
+				const geometry = new THREE.BoxGeometry( 250, 250, 250 );
 				const material = new THREE.MeshBasicMaterial( { map: texture } );
 
 				mesh = new THREE.Mesh( geometry, material );
@@ -58,7 +58,7 @@
 
 				requestAnimationFrame( animate );
 
-				mesh.rotation.x += 0.0025;
+				mesh.rotation.x += 0.0035;
 				mesh.rotation.y += 0.005;
 
 				renderer.render( scene, camera );
